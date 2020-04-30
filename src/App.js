@@ -4,7 +4,6 @@ import ExpenseForm from './components/ExpenseForm';
 import ExpenseList from './components/ExpsenseList';
 import uuid from 'uuid/v4';
 import "bootstrap/dist/css/bootstrap.min.css";
-
 import './App.css';
 
 

@@ -7,7 +7,7 @@ const ExpenseItem = ({expense,handleEdit,handleDelete}) => {
     return (
        <div className="item">
            <div className="container">
-          
+
            <div class="card">
                <span className="expense">
                    <h4>{charge}</h4>
@@ -26,15 +26,9 @@ const ExpenseItem = ({expense,handleEdit,handleDelete}) => {
                 <a href="#" class="alert-link "><MdDelete/>Delete</a>  
                </button>
 
-               </div>
-            
-           
-        </div>
-
-           </div>
-          
-        
-    
+               </div>   
+            </div>
+           </div> 
     )
 }
 
