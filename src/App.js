@@ -30,10 +30,10 @@ const initialExpenses = [
 
   //use effect
 
-  useEffect(()=>{
-    console.log('we called use Effect');
-    localStorage.setItem("expenses",JSON.stringify(expenses),[expenses]);
-  });
+  // useEffect(()=>{
+  //   console.log('we called use Effect');
+  //   localStorage.setItem("expenses",JSON.stringify(expenses),[expenses]);
+  // });
 
 //handle alert 
 
