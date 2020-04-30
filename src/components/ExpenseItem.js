@@ -10,7 +10,7 @@ const ExpenseItem = ({expense,handleEdit,handleDelete}) => {
           
            <div class="card">
                <span className="expense">
-                   <h5>{charge}</h5>
+                   <h4>{charge}</h4>
                 </span>
                </div>
                <div className="col-md-4">
