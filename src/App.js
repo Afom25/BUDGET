@@ -7,13 +7,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
 
 
-// const initialExpenses = [
-//   {id:uuid(),charge:"rent",amount:1450},
-//   {id:uuid(),charge:"car",amount:1950},
-//   {id:uuid(),charge:"credit",amount:1650}
-// ];
-const initialExpenses = localStorage.getItem("expenses") 
-? JSON.parse(localStorage.getItem("expenses")): [];
+const initialExpenses = [
+  {id:uuid(),charge:"rent",amount:1450},
+  {id:uuid(),charge:"car",amount:1950},
+  {id:uuid(),charge:"credit",amount:1650}
+];
 
 
  function App() {
