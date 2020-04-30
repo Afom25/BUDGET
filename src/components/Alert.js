@@ -4,7 +4,7 @@ import React from 'react';
 const Alert = ({type,text}) => {
     return (
         <div className={`alert alert-${type}`}>
-           <h5> {text} </h5>
+           <h6> {text} </h6>
         </div>
     )
 }
